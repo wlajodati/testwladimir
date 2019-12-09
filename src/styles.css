@@ -1,0 +1,26 @@
+.main-row {
+    margin-top: 5%;
+}
+
+.fact-icon {
+    width: 10%;
+}
+
+.icon-margin {
+    margin-top: 2.5%;
+}
+
+.search-button {
+    margin-top: 2.5%;
+}
+
+.fact-format-error {
+    font-size: 20px;
+    font-weight: bold;
+    color: #af2025;
+}
+
+.fact-format {
+    font-size: 20px;
+    font-weight: bold;
+}

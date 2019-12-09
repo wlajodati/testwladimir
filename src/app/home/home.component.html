@@ -1,0 +1,16 @@
+<div class="row main-row">
+    <div class="col-8 offset-2 text-center">
+        <h2>Chuck Norris' fact</h2>
+        <div class="card">
+            <div class="card-header">
+                <h3>{{facts.id}}</h3>
+            </div>
+            <img src="{{facts.icon_url}}" class="card-img-top fact-icon mx-auto d-block icon-margin" alt="">
+            <div class="card-body">
+                <p class="card-text fact-format">{{facts.value}}</p>
+                <button type="button" class="btn btn-primary" (click)="getNewFact()">Get another Chuck Norris' fact</button>
+                <button type="button" class="btn btn-primary ml-4" (click)="addFavorite(facts.id, facts.value)">Save as favorite</button>
+            </div>
+        </div>
+    </div>
+</div>

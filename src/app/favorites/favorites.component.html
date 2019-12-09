@@ -1,0 +1,13 @@
+<div class="row main-row">
+    <div class="col-8 offset-2 text-center">
+        <h2>There are your favorites Chuck Norris' facts... You can't have another favorite thing!!!</h2>
+        <div *ngFor="let favorite of favorites" class="card mt-4">
+            <div class="card-header">
+                <h3>{{favorite.id}}</h3>
+            </div>
+            <div class="card-body">
+                    <p class="card-text fact-format" style="color: #1415a5;">{{favorite.value}}</p>
+            </div>
+        </div>
+    </div>
+</div>
